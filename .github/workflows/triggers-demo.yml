@@ -5,7 +5,7 @@ on:
   # Case A: setiap push ke branch tertentu
   push:
     branches: [main, 'release/**']
-    tags: ['v*.*.*']
+    # tags: ['v*.*.*']
     # Case B: hanya jika file di path ini berubah (hemat resource)
     paths:
       - 'src/**'
